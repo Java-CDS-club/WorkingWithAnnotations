@@ -18,5 +18,11 @@ public class TennisCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "Practice your backend volley";
 	}
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneservice.getFortune();
+	}
+	
 
 }

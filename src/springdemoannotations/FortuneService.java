@@ -2,5 +2,5 @@ package springdemoannotations;
 
 public interface FortuneService {
 
-	public String getDailyFortune();
+	public String getFortune();
 }
